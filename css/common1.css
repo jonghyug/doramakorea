@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+#subHead { width:100%; height:100px; background:#fff; color:#000; position: relative;
+            top:0; left: 0; display:block;
+ }
+.subHeadUl { width:80%; margin-left:10%; }
+#subHead .subHeadUl h1{ text-indent:-9999px; overflow: hidden; width:100px; height:100px;
+                        background:url(../images/mark.png) no-repeat center / cover;
+                        display: block; }
+#subHead .subHeadUl h1 a{ display: block; width:100%; height:100%; }
+
+#subHead .subHeadUl .subUl1 { width: 1200px; float: right; position:absolute; top:35px; left: 25%; }
+#subHead .subHeadUl .subUl1 li{ float: left; margin-left:80px; }
+#subHead .subHeadUl .subUl1 li a{ color:#000; font-size: 24px; }
+
+#subHead .subHeadUl .subUl2 { width:300px; float: right; position: absolute; top:40px; left: 80%; }
+#subHead .subHeadUl .subUl2 li { float:left; margin-left:40px; }
+#subHead .subHeadUl .subUl2 li a { color:#000; font-size: 16px; }
+
+#subHead2 { display: none; }
+
+#subTitle { width:100%; height:800px; position:relative; margin: 0 auto; background:url(../images/foodTitles.jpg) no-repeat center / cover;
+            display: block;  }
+#subTitle::before { content:""; width:100%; height:800px; position:absolute;top:0;left:0; background:rgba(0,0,0,0.3); }
+.subFood { width:80%; margin-left:22%; padding-top:240px; box-sizing: border-box; position:relative;}
+.subFood h2 { font-size:64px; color: #fff; padding-bottom:100px; }
+.subFood p { font-size:32px; color:#fff; padding: 30px 0; }
+.subFood span { font-size:24px; color:#fff; margin-left:400px; }
+
+#foodSea { width:100%; height:700px; background:url(../images/foodpot.jpg) no-repeat center / cover;
+          float: left; position:relative; margin: 0 auto; }
+.foodSea { width: 80%; margin: 0 auto; }
+
+.foodSea .foodimg { width: 330px; height: 520px; padding:30px; margin-top:60px; margin-left:20%;
+                    background:url(../images/foodimg.jpg) no-repeat center / cover; }
+.foodSea .foodSear { width:500px; color:#fff; float: left; position: absolute; top:80px; left: 50%;}
+.foodSea .foodSear h2 { font-size:48px; padding: 30px 0; }
+.foodSea .foodSear p{ font-size: 24px; padding: 10px 0; }
+.foodSea .foodSear .star { width:244px; height:45px; padding-top:10px; box-sizing: border-box;
+                         background:url(../images/star.png) no-repeat center / cover; }
+
+.foodSea .foodSear .btt { width:280px; height:50px; text-align: center; margin-top: 70px;
+                          line-height:50px;  background:#f00; border-radius:25px; }
+.foodSea .foodSear .btt a { width:100%; height:100%; display: block; color:#fff; }
+
+.foodSea .foodSear .bttt { width:100px; height:50px; text-align: center; margin-top: 30px;
+                          background:url(../images/youtube.png) no-repeat center / cover; border-radius:25px; }
+.foodSea .foodSear .bttt a { width:100%; height:100%; display: block; color:#fff; }
+
+#searchBar { width:100%; }
+
+.searchBar { width:60%; margin:0 auto; padding:30px 0; }
+.searchBar h2{ font-size:48px; }
+.searchBar label { font-size:24px; padding-left:30px; }
+select { width:100px; height:40px; font-size:18px; }
+#world { width:150px; height:40px; font-size:18px; }
+select option { font-size:20px; }
+button { width:100px; height:50px; margin-top:10px; font-size:20px; }
+
+#cha { width:100%; height:1600px; border-top: 1px solid #000; padding: 20px 0;}
+.chart { width:60%; margin: 0 auto; }
+.chart h2 { font-size: 48px; padding-bottom:30px; }
+
+.cha { width:100%; }
+.cha li { width:33%; height:50px; border:1px solid #000; font-size: 32px;
+          text-align: center; float: left; line-height:50px; }
+.cha li a { width:100%; height:50px; display: block; color:#000; }
+
+.an { background:#bdb2b2; }
+
+.chaImg { width:100%; position: relative; margin: 0 auto; }
+.chaImg .chImg{ margin: 0 auto; width:70%; height:1340px; background: no-repeat center / cover; }
+.chaImg .chImg1{ display:block; background:url(../images/toKyo.jpg) no-repeat center / cover; position:absolute;top:100px; left: 15%; }
+.chaImg .chImg2{ display:none; background:url(../images/gana.jpg) no-repeat center / cover; position:absolute;top:100px; left: 15%; }
+.chaImg .chImg3{ display:none; background:url(../images/korea.jpg) no-repeat center / cover; position:absolute;top:100px; left: 15%; }
+
+#cha2 { display: none; }
+
+footer { width:100%; height:100px; background:#3b2626;
+        padding:30px 0; display:block; }
+.foot { width:60%; height:100px; margin: 0 auto; }
+footer p { width:700px; color:#fff; line-height:30px; float: left;}
+
+footer ul { width:222px; height:54px; float: right; margin-top:25px; }
+footer ul li{ width:54px;height:54px; float: left; margin-left: 20px; }
+footer ul li a { width:100%; height: 54px; display: block; }
+
+.face { background:url(../images/facebook.png) no-repeat center / cover; }
+.twi { background:url(../images/twiter.png) no-repeat center / cover; }
+.ins { background:url(../images/instagr.png) no-repeat center / cover;  }
+
+@media screen and ( max-width: 1700px ) {
+  .subUl2{ display: none; }
+}
+
+@media screen and ( max-width: 1000px ) {
+
+body { width:1000px; max-width: 1000px; }
+#subHead { display: none; }
+#subTitle { display: none; }
+
+#subHead2 { display:block; position:relative;  }
+#subHead2 .subHeadUl2 { z-index:999; position:fixed; top:0; left:0; width:100%; height:160px; background:rgba(0,0,0,0.5); }
+#subHead2 .subHeadUl2 h1 { width:150px; height:150px; position: absolute; top:5px; left:5px;
+                          border:1px solid #000; border-radius: 5px;background:url(../images/menubtn1.png) no-repeat center / cover; }
+.subHeadUl2 h1 a { width:100%; height:100%; display: block; text-indent: -999px; overflow:hidden;}
+.subUl2 { width:70%; height:2300px; display:block; z-index:999; background:#fff; position:fixed; top:160px; left: -71%;
+          border-right:1px solid #000;  }
+.subUl2 .subUl12 { width:100%; height: 100%; }
+.subUl2 .subUl12 li { width:100%; height:72px; border:1px solid #000; font-size:48px; line-height:68px; text-align:center; }
+.subUl2 .subUl12 li a { width:100%; height:100%; display: block; color:#000; }
+
+
+#foodSea { width:100%; height:700px; background:url(../images/foodpot.jpg) no-repeat center / cover;
+          float: left; position:relative; margin: 0 auto; }
+.foodSea { width: 100%; margin: 0 auto; }
+
+.foodSea .foodimg { width: 220px; height: 380px; padding:30px; margin-top:130px; margin-left:20%;
+                    background:url(../images/foodimg.jpg) no-repeat center / cover; }
+.foodSea .foodSear { width:300px; color:#fff; float: left; position: absolute; top:130px; left: 530px;}
+.foodSea .foodSear h2 { font-size:2rem; padding: 30px 0; }
+.foodSea .foodSear p{ font-size: 0.9rem; padding: 10px 0; }
+.foodSea .foodSear .star { width:244px; height:45px; padding-top:10px; box-sizing: border-box;
+                         background:url(../images/star.png) no-repeat center / cover; }
+
+.foodSea .foodSear .btt { width:200px; height:50px; text-align: center; margin-top: 30px;
+                          line-height:50px;  background:#f00; border-radius:25px; }
+.foodSea .foodSear .btt a { width:100%; height:100%; display: block; color:#fff; }
+
+.foodSea .foodSear .bttt { width:100px; height:50px; text-align: center; margin-top: 30px;
+                          background:url(../images/youtube.png) no-repeat center / cover; border-radius:25px; }
+.foodSea .foodSear .bttt a { width:100%; height:100%; display: block; color:#fff; }
+
+
+#searchBar { width:100%; }
+
+.searchBar { width:80%; margin:0 auto; padding:30px 0; }
+.searchBar h2{ font-size:2rem;  }
+.searchBar label { font-size:1rem; padding-left:5%; }
+select { width:150px; height:40px; font-size:1rem; }
+#world { width:150px; height:40px; font-size:1rem; }
+select option { font-size:1rem;  }
+button { width:100px; height:50px; margin-top:10px; font-size:1rem; }
+
+
+#cha { width:100%; height:1300px; border-top: 1px solid #000; padding: 20px 0;
+       display:none; }
+.chart { width:100%; margin: 0 auto; }
+.chart h2 { font-size: 2rem; padding-bottom:30px; }
+
+.cha { width:100%; margin-left:2%; }
+.cha li { width:31%; height:50px; border:1px solid #000; font-size: 1.2rem;
+          text-align: center; float: left; line-height:50px; }
+.cha li a { width:100%; height:50px; display: block; color:#000; }
+
+.an { background:#bdb2b2; }
+
+.chaImg { width:100%; position: relative; margin: 0 auto; }
+.chaImg .chImg{ margin: 0 auto; width:90%; height:1000px; background: no-repeat center / cover; }
+.chaImg .chImg1{ display:block; background:url(../images/toKyo.jpg) no-repeat center / cover; position:absolute;top:100px; left: 5%; }
+.chaImg .chImg2{ display:none; background:url(../images/gana.jpg) no-repeat center / cover; position:absolute;top:100px; left: 5%; }
+.chaImg .chImg3{ display:none; background:url(../images/korea.jpg) no-repeat center / cover; position:absolute;top:100px; left: 5%; }
+
+#cha2 { width:100%; height:3200px; border-top: 1px solid #000; padding: 20px 0; 
+       display:block; }
+#cha2 h2 { font-size: 2rem; padding-bottom:30px; padding-left:30px; }
+.chaImg2 { width:100%; position: relative; margin: 0 auto; }
+.chaImg2 .chImg1{ margin: 0 auto; width:90%; height:900px; background: no-repeat center / cover; }
+.chaImg2 .chImg12{ display:block; background:url(../images/toKyo.jpg) no-repeat center / cover; position:absolute;top:100px; left: 2%; }
+.chaImg2 .chImg22{ display:block; background:url(../images/gana.jpg) no-repeat center / cover; position:absolute;top:1100px; left: 2%; }
+.chaImg2 .chImg32{ display:block; background:url(../images/korea.jpg) no-repeat center / cover; position:absolute;top:2100px; left: 2%; }
+
+
+
+footer { width:100%; height:100px; background:#3b2626;
+          padding:30px 0; display: block; }
+.foot { width:80%; height:100px; margin: 0 auto; }
+footer p { width:100%; color:#fff; line-height:30px; float: left;}
+
+footer ul { display: none; }
+
+
+
+
+
+}

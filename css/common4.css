@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+body, h1,h2,h3,p,ul,li,div,button,select { margin: 0; padding: 0; }
+ul li { list-style: none;}
+a { text-decoration: none;}
+
+body { width:100%; height:100vh; min-width:1900px; min-height:100vh; }
+
+#head { width:9.4%; height:100vh; position:relative;
+        background:url(../images/headerTag.jpg) no-repeat center / cover;}
+#head h1 { width:150px; height:150px;  text-indent: -999px; overflow:hidden;
+          position:absolute; top:0; left: 15px;
+           background:url(../images/mark.png) no-repeat center / cover; }
+#head h1 a { width:100%; height:100%; display: block; }
+
+#head .headUl { width:100%; min-width:180px;  }
+#head .headUl ul { position:absolute; top:20vh; left: 0; text-align: center;}
+#head .headUl ul li { width:180px; line-height:90px; font-size: 24px; }
+#head .headUl ul li a { width:100%; height:100%; display: block; color:#fff;}
+
+#head .headUl ul li a:hover { width:100%; background:#fff; color:#000; font-size:32px; }
+
+.sns { width:180px; height:180px; position:absolute; top:80vh; }
+.sns ul{ float:left; }
+.sns ul li { width: 70px; height:70px; margin: 10px;
+              float:left; text-indent: -999px; overflow:hidden; }
+.sns ul li a { width:100%; height:100%; display: block;}
+
+.sns ul .facebook { background:url(../images/facebook.png) no-repeat center / cover; }
+.sns ul .twiter { background:url(../images/twiter.png) no-repeat center / cover; }
+.sns ul .insta { background:url(../images/instagr.png) no-repeat center / cover; }
+.sns ul .call { background:url(../images/tell.png) no-repeat center / cover; }
+
+#tvPro { width:90.6%; height:100vh; position:absolute; top:0; left:9.4%; }
+.tvPro { width:100%; height:100vh; overflow:hidden; }
+.tvPro #sliderList { width:400%; height:100vh; }
+.tvPro #sliderList .slider { width:25%; height:100vh; float: left; }
+
+
+
+.slider1 { position:relative; background:url(../images/food.jpg) no-repeat center / cover; }
+.slider1::before { content:""; position:absolute;top:0; right: 0; width:45%; height:100%;
+                    background: rgba(0,0,0,0.7); }
+
+.slider1 > div { width:30%; position:absolute; top: 200px; left:60%; box-sizing: border-box;}
+.slider1 > div > span { color:#fff; font-size:24px; }
+.slider1 > div > h2 { color:#fff; font-size: 64px; padding: 5px 0; }
+.slider1 > div > p { color:#fff; font-size:20px; padding-top:30px; padding-left:50px; }
+.slider1 > div > .star { width:194px; height:15px; margin-top:10px; margin-left:50px;
+                         background:url(../images/star.png) no-repeat center / cover; }
+
+.slider1 .stove1 { width:100%; height:95px; margin-top:50px; margin-left:50px;
+                      box-sizing: border-box; }
+.slider1 .stove1 p { width:49.2%; height:91px; border:2px solid #fff; float: left;
+                        background:#000;  font-size:36px; text-align: center; line-height:91px; }
+.slider1 .stove1 p a { width:100%; height:100%; color:#fff; display:block; }
+.slider1 .stove1 p:hover{ background:#6b0000; }
+
+
+
+
+.slider2 { position:relative; background:url(../images/miu404.jpg) no-repeat center / cover; }
+.slider2::before { content:""; position:absolute;top:0; right:0; width:45%; height:100%;
+                    background: rgba(0,0,0,0.7);  }
+
+.slider2 > div { width:30%; position:absolute; top:200px; left: 60%; box-sizing: border-box;}
+.slider2 > div > h2 { color:#fff; font-size: 78px; font-weight: lighter; text-transform: uppercase;
+                      padding-bottom:10px;  }
+.slider2 > div > span { color:#fff; font-size:22px; }
+.slider2 > div > .tol { color:#fff; padding-top:10px;margin-left:-50px; }
+.slider2 > div > p { color:#fff; padding-top:62px;font-size:20px; padding-left:50px; padding-bottom:10px; }
+.slider2 > div > .star { width:244px; height:45px; padding-top:10px; padding-left:50px; margin-left:50px; box-sizing: border-box;
+                         background:url(../images/star.png) no-repeat center / cover;  }
+
+.slider2 .stove2 { width:100%; height:95px; margin-top:50px; margin-left:50px;
+                   box-sizing: border-box;  }
+.slider2 .stove2 p { width:49.2%; height:91px; border:2px solid #fff; float: left;
+                     font-size:36px; background:#000; text-align: center; line-height:91px; }
+.slider2 .stove2 p a { width:100%; height:100%; color:#fff; display:block; }
+.slider2 .stove2 p:hover{ background:#6b0000; }
+
+
+.slider3 { position:relative; background:url(../images/house.jpg) no-repeat center / cover; }
+.slider3::before { content:""; position:absolute;top:0; right:0; width:45%; height:100%;
+                    background: rgba(0,0,0,0.7);  }
+
+.slider3 > div { width:30%; position:absolute; top:160px; left: 60%; box-sizing: border-box;}
+.slider3 > div > span { color:#fff; font-size:16px; line-height: 40px; }
+.slider3 > div > h2 { color:#fff; font-size: 48px; font-weight: lighter; text-transform: uppercase;
+                      padding-top:20px; padding-bottom:10px;  }
+.slider3 > div > p { color:#fff; padding-top:97px;font-size:20px; padding-left:50px; padding-bottom:10px; }
+.slider3 > div > .star { width:244px; height:45px; padding-top:10px; padding-left:50px; margin-left:50px; box-sizing: border-box;
+                        background:url(../images/star.png) no-repeat center / cover;  }
+
+.slider3 .stove3 { width:100%; height:95px; margin-top:50px; margin-left:50px;
+                   box-sizing: border-box;  }
+.slider3 .stove3 p { width:49.2%; height:91px; border:2px solid #fff; float: left; background:#000;
+                     font-size:36px; text-align: center; line-height:91px; }
+.slider3 .stove3 p a { width:100%; height:100%; color:#fff; display:block; }
+.slider3 .stove3 p:hover{ background:#6b0000; }
+
+
+.slider4 { position:relative; background:url(../images/night.jpg) no-repeat center / cover; }
+.slider4::before { content:""; position:absolute;top:0; right:0; width:45%; height:100%;
+                    background: rgba(0,0,0,0.7);  }
+
+.slider4 > div { width:30%; position:absolute; top: 178px; left:60%; box-sizing: border-box;}
+.slider4 > div > span { color:#fff; font-size:20px; line-height: 40px; }
+.slider4 > div > h2 { color:#fff; font-size: 64px; padding-top: 15px; }
+.slider4 > div > h3 { color:#fff; font-size:48px; font-weight:lighter; padding-left: 170px; }
+.slider4 > div > p { color:#fff; font-size:20px; padding-top:30px; padding-left:50px; }
+.slider4 > div > .star { width:194px; height:15px; margin-top:10px; margin-left:50px;
+                         background:url(../images/star.png) no-repeat center / cover; }
+
+.slider4 .stove4 { width:100%; height:95px; margin-top:50px; margin-left:50px;
+                   box-sizing: border-box; }
+.slider4 .stove4 p { width:49.2%; height:91px; border:2px solid #fff; float: left;
+                    background:#000;  font-size:36px; text-align: center; line-height:91px; }
+.slider4 .stove4 p a { width:100%; height:100%; color:#fff; }
+.slider4 .stove4 p:hover{ background:#6b0000; }
+
+
+
+
+.Btn { position: absolute; top:95vh; left: 56%; }
+.Btn ul { width: 190px; height:26px; }
+.Btn ul li{ float: left; width:26px; height:26px; margin: 0 10px; border-radius:13px; background:#fff;
+            text-indent: -999px; overflow:hidden; }
+.Btn ul li a{ width:100%; height:100%; display: block; }
+
+.Btn ul .on { background:#000; border:1px solid #fff; }
